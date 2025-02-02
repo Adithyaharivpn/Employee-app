@@ -3,7 +3,7 @@ import Navbar from './NavBar'
 
 const Emptable = () => {
 
-    const [emp] = useState(
+    const [emp,changeemp] = useState(
 
         [
             {"Name": "John Smith", "EmployeeID": "EMP01", "Designation": "Data Scientist", "Salary": "85000"},
